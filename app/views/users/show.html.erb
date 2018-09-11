@@ -7,5 +7,5 @@
 <h2><%= @user.username %></h2> has made the following comments:
 
 <% @user.comments.each do |comment| %>
-  <%= comment.content %> which was a post by <%= comment.post.user.username %>
+  <%= comment.content %>
 <% end %>
